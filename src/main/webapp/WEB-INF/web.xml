@@ -1,0 +1,24 @@
+<web-app>
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.zomoto.servlet.OrderFoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/RegisterUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.zomoto.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/loginUser</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>FoodApp.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
